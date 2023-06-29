@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback page</title>
+<style>
+    body{
+        background-color: rgb(123, 123, 185);
+    }
+    .feedback-block {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #c8d45a;
+      }
+      
+      .feedback-block h2 {
+        text-align: center;
+        margin-bottom: 10px;
+      }
+      
+      .feedback-block form {
+        display: grid;
+        grid-gap: 10px;
+      }
+      
+      .feedback-block label {
+        font-weight: bold;
+      }
+      
+      .feedback-block input[type="text"],
+      .feedback-block input[type="email"],
+      .feedback-block textarea {
+        width: 100%;
+        padding: 5px;
+      }
+      
+      .feedback-block input[type="submit"] {
+        background-color: rgb(189, 72, 72);
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      .feedback-block input[type="submit"]:hover {
+        background-color: rgb(168, 81, 81);
+      }
+      
+</style>
+</head>
+<body>
+    <div class="feedback-block">
+        <h2>Feedback</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+      
+</body>
+</html>

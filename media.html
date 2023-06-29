@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        header {
+            background-color:peru;
+            padding: 20px;
+          }
+          .header-container {
+            display: flex;
+            align-items: center;
+          }
+          
+          .logo {
+            width: 100px; 
+            margin-right: 30px;
+          }
+          .site-name {
+            text-align: center;
+            color: #fff;
+            font-size: 24px;
+          }
+          nav {
+            background-color: #333;
+          }
+          
+          .navigation {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
+          
+          .navigation li {
+            float: left;
+          }
+          
+          .navigation li a {
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          .navigation li a:hover {
+            background-color: #555;
+          }   
+          body {
+            background-color: #bce9e9;
+          }
+          .headline{
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 30px;}
+         .video-row {
+                display: flex;
+              }
+              
+       .video-row video {
+                width: 300px;
+                height: 200px;
+                margin-right: 10px;
+              }
+               .preview-image {
+                width: 300px; 
+                cursor: pointer;
+                margin-top: 60px;
+                margin-right: 50px;
+              }
+              .my-container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 20vh;}
+              
+    </style>
+</head>
+<body>
+    <header>
+    <div class="header-container">
+        <img src="image1.jpg" alt="Logo" class="logo">
+        <h1 class="site-name">Landing Page</h1>
+      </div>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="media.html">Media</a></li>
+      <li><a href="about us.html">About Us</a></li>
+      <li><a href="contact us.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <h4 class="headline"><u>There are some videos which can learn you how to design a landing page or a webpage</u></h4>
+  <div class="video-row">
+    <video src="videoplayback1.mp4" width="60%" controls loop></video>
+    <video src="videoplayback2.mp4" width="60%" controls loop></video>
+    <video src="videoplayback.mp4" width="60%" controls loop></video>
+    <video src="videoplayback3.mp4" width="60%" controls loop></video>
+  </div>
+  
+  <h4 class="headline"><u>There are some photos which can learn you how to design a landing page or a webpage</u></h4>
+  <div class="my-container">
+    <a href="image2.jpg" target="_blank">
+        <img src="image2.jpg" alt="Preview Image" class="preview-image">
+      </a>
+      <a href="image3.jpg" target="_blank">
+        <img src="image3.jpg" alt="Preview Image" class="preview-image">
+      </a>
+      <a href="image4.jpg" target="_blank">
+        <img src="image4.jpg" alt="Preview Image" class="preview-image">
+      </a>
+    </div>
+</body>
+</html>

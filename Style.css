@@ -1,0 +1,105 @@
+header {
+    background-color:peru;
+    padding: 20px;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px; 
+    margin-right: 30px;
+  }
+  .site-name {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+  }
+  nav {
+    background-color: #333;
+  }
+  
+  .navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .navigation li {
+    float: left;
+  }
+  
+  .navigation li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigation li a:hover {
+    background-color: #555;
+  }   
+  body {
+    background-color: #bce9e9;
+  }
+  .headline{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .my-paragraph {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    line-height: 1.5;
+  }
+  
+  .centered-list {
+    text-align: center;
+  }
+  .preview-image {
+    width: 200px; 
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 50px;
+  }
+  .my-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: rgb(201, 19, 65);
+  color: white;
+}
